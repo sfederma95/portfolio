@@ -70,9 +70,10 @@
     font-size: 2em;
 }
 
-@media only screen and (min-width: 1500px) and (max-width: 1650px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
     #Projects .break {
         margin-top: 20%;
+        margin-bottom: 5%;
     }
 
 }
