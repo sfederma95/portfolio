@@ -1,0 +1,67 @@
+#Main img {
+    margin-top: 12%;
+    height: 30%;
+    width: 20%;
+    margin-bottom: -4%;
+}
+
+#Main {
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Main h1 {
+    color: #7b00e0;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+#Main p {
+    margin-top: 2%;
+    font-size: 1.3em;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+    #Main img {
+        width: 60%;
+        height: 70%;
+        margin-bottom: -12%;
+        margin-top: 6%;
+    }
+
+    #Main h1 {
+        font-size: 2.5em;
+    }
+
+    #Main p {
+        width: 80%;
+        font-size: 1.2em;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+    #Main {
+        width: 95%;
+    }
+    #Main img {
+        width: 50%;
+        height: 60%;
+        margin-bottom: -10%;
+        margin-top: 5%;
+    }
+    #Main p {
+        width: 60%;
+        font-size: 1.8em;
+        margin-top: 7%;
+    }
+    #Main h1 {
+        font-size: 3.5em;
+    }
+}

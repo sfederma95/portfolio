@@ -1,0 +1,159 @@
+#Projects {
+    display: flex;
+    margin-top: 0%;
+    width: 100vw;
+    padding: 2% 0;
+    justify-content: center;
+}
+
+#Projects h3 {
+    color: rgb(148, 148, 216);
+    margin-top: 7%;
+    font-size: 2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Projects .break {
+    border-top: 5px double black;
+    width: 80%;
+    margin-bottom: 4%;
+    margin-top: 7%;
+}
+
+.each-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    background-color: white;
+    margin: 0 1% 0 1%;
+    padding-bottom: 15%;
+    border: 5px rgb(148, 148, 216) double;
+}
+
+.each-project p {
+    text-align: center;
+}
+
+.each-project p:nth-child(2) {
+    font-size: 1.5em;
+    text-align: left;
+    width: 68%;
+    height: 10%;
+}
+
+.videos {
+    width: 90%;
+    margin-top:4%;
+}
+
+.videos iframe {
+    width: 100%;
+    height: 250%;
+}
+
+#Projects .overlay {
+    background-color: white;
+    position: absolute;
+    opacity: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Projects .overlay p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color:gray;
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
+    #Projects .break {
+        margin-top: 12%;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+    #Projects {
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        padding: 15% 0;
+    }
+    .each-project {
+        width: 95%;
+    }
+
+    .each-project:nth-child(1){
+        margin-bottom: 10%;
+    }
+
+    .each-project p:nth-child(2) {
+        font-size: 1.3em;
+        text-align: center;
+        width: 80%;
+    }
+
+    #Projects h3 {
+        margin-top: 15%;
+    }
+
+    .videos {
+        width: 90%;
+        margin-top:10%;
+    }
+    
+    .videos iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+    #Projects {
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        padding: 7% 0;
+    }
+    .each-project {
+        width: 95%;
+        padding-bottom: 10%;
+    }
+
+    .each-project:nth-child(1){
+        margin-bottom: 10%;
+    }
+
+    #Projects .break {
+        border-top: 3px double black;
+        width: 95%;
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+
+    .each-project p:nth-child(2) {
+        font-size: 1.5em;
+        text-align: center;
+        width: 85%;
+    }
+
+    #Projects h3 {
+        margin-top: 10%;
+        font-size: 3em;
+    }
+
+    .videos {
+        width: 95%;
+        margin-top:7%;
+    }
+    
+    .videos iframe {
+        width: 100%;
+        height: 35em;
+    }
+}

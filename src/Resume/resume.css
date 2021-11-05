@@ -1,0 +1,193 @@
+#Resume {
+    margin: 0% auto;
+    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+    display: flex;
+    border: 5px rgb(148, 148, 216) double;
+}
+
+#my-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#my-info img {
+    width: 75%;
+    border-radius: 25%;
+}
+
+#my-info h1 {
+    margin-top: 15%;
+}
+
+#my-info p {
+    margin-top: 0;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
+
+#Resume .break {
+    border-bottom: 5px double black;
+    margin: 10% -15%;
+}
+
+#left {
+    background-color: rgb(148, 148, 216);
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#right {
+    padding: 5%;
+    width: 60%;
+}
+
+#left a {
+    font-size: 1.2em;
+    margin-right: 4%;
+}
+
+#Resume a {
+    color: black;
+}
+
+#Resume a:hover {
+    color: black;
+}
+
+.icons span {
+    font-size: 1.2em;
+    margin-right: 4%;
+}
+
+.icons div {
+    background-color: white;
+    margin-bottom: 3%;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.5em;
+}
+
+.icons i {
+    margin-left: 5%;
+}
+
+#skills {
+    display: flex;
+    column-gap: 1em;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+}
+
+#skills ul li {
+    background-color: white;
+    border-radius: 0.7em;
+    text-align: center;
+    padding: 6% 0;
+    margin-bottom: 4%;
+    font-size: 1.3em;
+}
+
+#right-container {
+    font-size: 1.3em;
+    width: 90%;
+    padding-left: 2%;
+}
+
+#right a {
+    color:purple;
+    text-decoration: underline purple;
+}
+
+#right h3 {
+    margin: 4% 0;
+}
+
+#Resume h3 {
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+    #Resume {
+        width: 100%;
+        font-size: 0.7em;
+        margin: 25% 0 25% -0.5%;
+        border: 1px black solid;
+        flex-direction: column;
+    }
+
+    #left {
+        padding: 2%;
+        width: 96%;
+    }
+    
+    #right {
+        padding: 2%;
+        width: 100%;
+    }
+
+    #Resume .break {
+        border-bottom: 4px double black;
+        margin: 10% -2%;
+    }
+
+    #my-info img {
+        width: 60%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+    #Resume {
+        margin: 7% auto;
+        width: 98%;
+        border: 1px black solid;
+        font-size: 0.8em;
+    }
+
+    #left {
+        width: 30%;
+    }
+
+    #Resume .break {
+    border-bottom: 3px double black;
+    margin: 15% -10%;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 780px) {
+    #skills ul li {
+        font-size: 1.2em;
+        padding: 7% 0;
+        margin-bottom: 6%;
+    }
+
+    .icons span {
+        font-size: 1.1em;
+    }
+
+    #left a {
+        font-size: 1.1em;
+    }
+
+    .icons div {
+        font-size: 0.9em;
+    }
+
+    #right li {
+        margin-bottom: 1%;
+    }
+}

@@ -1,0 +1,19 @@
+.breaks {
+    border-top: 5px double #7b00e0;
+    width: 95vw;
+    margin: 7% 0;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+    .breaks {
+        width: 90vw;
+        margin: 5% 0;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+    .breaks {
+        width: 90vw; 
+        margin: 5% 0;
+    }
+}
